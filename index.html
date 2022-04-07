@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #image {
+            text-align: center;
+        }
+
+        #table {
+            width: 90%;
+            margin-left: 5%;
+            text-align: center;
+
+        }
+        #search {
+            background-color: #EEEEEE;
+        }
+
+        #search input{
+            background-color: #ffff;
+        }
+
+        #col1 {
+            width: 37%;
+            background-color: #7ee5da;
+        }
+
+        #col2 {
+            font-size: 13px;
+            background-color: #70ccc2;
+        }
+
+        #col3 {
+            font-size: 13px;
+            background-color: #62b3aa;
+        }
+
+        #archive {
+            font-size: 13px;
+        }
+
+        #last {
+            text-align: center;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+   <div id="image">
+        <img src="https://web.archive.org/web/19981202230410im_/http://www.google.com/google.jpg" width="351" height="113" alt="Google">
+   </div>
+   <div>
+       <table id = "table">
+           <tbody>
+               <tr id="search">
+                   <td  colspan ="3">
+                       <div>
+                       Search the web using Google!
+                       <br>
+                        <input type="text" name="" id="search" value size="40"> 
+                       </div>
+                       <button type="submit">Google Search</button>
+                       <button type="submit">I'm feeling lucky</button>
+                   </td>
+               </tr>
+               <tr id="link">
+                   <td id="col1">
+                       <div>
+                           "Special Searches"
+                           <br>
+                           <a href="https://web.archive.org/web/19981202230410/http:/www.google.com/stanford">Stanford Search</a>
+                           <br>
+                           <a href="https://web.archive.org/web/19990221231654/http://www.google.com/linux">Linux Search</a>
+                       </div>
+                   </td>
+                   <td id="col2">
+                        <div>
+                            <a href="help.html">Help!</a>
+                            <br>
+                            <a href="about.html">About Google!</a>
+                            <br>
+                            <a href="company.html">Company Info</a>
+                            <br><a href="stickers.html">Google! Logos</a>
+                        </div>
+                   </td>
+                   <td id="col3">
+                       <div>
+                           " Get Google "
+                           <br>
+                           " Updates Monthly: "
+                           <br>
+                           <input type="hidden" name="listname" value="goole-friend">
+                           <input type="text" name="email-adress" value="your e-mail">
+                           <br> 
+                           <input type="submit" name="submitAction" value="Subscribe">
+                           <a id="archive" href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/">Archive</a>
+                       </div>
+                   </td>
+                   <td></td>
+               </tr>
+           </tbody>
+       </table>
+       <p id="last">Copyright ©1998 Google Inc.</p>
+   </div>
+</body>
+</html>
